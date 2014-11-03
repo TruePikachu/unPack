@@ -6,7 +6,7 @@ class PackEntry;
 
 class PackEntry {
 	private:
-		std::istream&	file;
+		std::istream*	file;
 		int		id;
 		off_t		where;
 		size_t		size;
